@@ -1,0 +1,223 @@
+/* main root color scheme of site */
+:root{
+    --main-color: rgb(0,153,255);
+    --sub-primary: #b4c6f0;
+    --secondary-color: linear-gradient(0deg, rgba(0,153,255,1) 0%, rgba(144,45,253,1) 51%, rgba(255,0,127,1) 100%);
+    --sub-secondaryColor: rgb(255, 0, 128) 100%;
+}
+
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: var(--main-color);
+    background: var(--secondary-color);
+}
+/* header plus navbar content */
+.navBar {
+    background-color: black;
+    width: 100%;
+    height: 250px;
+    padding: 20px;
+    margin-right: 20px;
+    background-image: url("../images/EmbeddedImage4.jpg");
+}
+/* h1 header title */
+.navBar h1 {
+    color: white;
+    font-size: 35px;
+    margin: 10px;
+    display: inline;
+}
+/* background navbar image */
+.siteNav img{
+    position: relative;
+    margin-right: 100%;
+    display: flex;
+}
+/* navagation link items */
+.navLinks a {
+  margin: 15px 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.navLinks ul {
+    margin-top: -50px;
+    float: right;
+    font-size: 25px;
+    display: flex;
+    list-style: none;
+    height: 40px;
+    text-align: center;
+}
+/* navagation link items on hover */
+.navLinks a:hover {
+    color: var(--main-color);
+}
+/* profile picture */
+#profilepic {
+    border-radius: 50%;
+    border: solid var(--sub-primary) 5px;
+    margin-top: 220px;
+    margin-left: 20px;
+    height: 300px;
+    width: 300px;
+}
+
+/* main image figure below header */
+.photoSlider img{
+    position: relative;
+    display: flex;
+    height: 600px;
+    opacity: 20%;
+    width: 1425px;
+    margin-left: 7px;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: center;
+}
+/* about section inside on main figure */
+.aboutMe {
+    margin-top: -390px;
+    margin-left: 600px;
+    height: 500px;
+    width: 450px;
+    border-radius: 15px;
+}
+
+.aboutMe p {
+    color: white;
+    position: relative;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.aboutMe h1 {
+    color: white;
+    position: relative;
+    font-size: 25px;
+    margin-left: 45%;
+}
+/* webpage divider */
+hr.roundDivider {
+    border-top: 25px solid var(--sub-primary);
+    border-radius: 5px;
+}
+/* main content section start */
+.siteMain{
+    background-color: var(--sub-primary);
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    clear: left;
+    width: 65%;
+    height: 100%;
+    margin-left: 20px;
+    justify-content: center;
+    border-radius: 2%;
+}
+/* My Applications section h1 title */
+#devApps {
+    
+    font-size: 45px;
+    margin-left: 350px;
+    margin-top: 15px;
+    
+}
+/* All selected content boxes */
+.boxes {
+    flex-wrap: wrap;
+    border-radius: 5%;
+    background-color: var(--main-color);
+    margin: 20px;
+    height: 300px;
+    width: 400px;
+    transition: 0.5s;
+}
+/* All selected content boxes on hover */
+.boxes:hover {
+    cursor: pointer;
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+  }
+
+.boxes h1, .boxes p {
+    color: white;
+    margin: 20px;
+}
+
+.boxes img {
+    position: relative;
+    height: 300px;
+    width: 400px;
+    border-radius: 15px;
+}
+/* Zoom-in feature added to images */
+.boxes #zoom-In figure img {
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+.boxes #zoom-In:hover figure img {
+    transform: scale(1.15);
+}
+/* box1 content box image */
+.s-image {
+    opacity: 100;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* Developer Blog aside contnet title */
+#devBlog {
+color: white;
+display: flex;
+justify-content: center;
+font-size: 45px;
+}
+/* Developer Blog aside contnet sction */
+.siteAside {
+    background-color: black;
+    margin-right: 20px;
+    padding: 20px;
+    display: flex;
+    width: 30%;
+}
+/* aside p text */
+.siteAside .asideContent {
+    color: white;
+}
+/* aside h1 text */
+.siteAside .asideContent h1 {
+    color: var(--sub-primary);
+}
+/* aside h2 text */
+.siteAside .asideContent h2 {
+    color: var(--main-color);
+}
+/* site footer plus contact section */
+.footer {
+    background-color: black;
+    color: white;
+    padding: 30px;
+    clear: both;
+    
+}
+
+.footer h2, .footer p {
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    text-align: center;
+}
+
+.footer ul {
+    list-style: none;
+}
+/* footer link display after visit */
+a:link, a:visited {
+    text-decoration: none;
+    color: white;
+}
