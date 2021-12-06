@@ -14,8 +14,6 @@
 
 body {
     margin: 0;
-    background: var(--main-color);
-    background: var(--secondary-color);
 }
 
 /* header plus navbar content */
@@ -94,13 +92,14 @@ body {
 }
 
 .aboutMe p {
-    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(109, 30, 83);
     position: relative;
     padding: 10px;
     margin: 20px;
     font-size: 50px;
     margin-left: 20px;
-    background-color: rgba(39, 20, 54, 0.2);
+    /* background-color: rgba(39, 20, 54, 0.2); */
     border-radius: 5px;
 }
 

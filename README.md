@@ -25,6 +25,8 @@ Direct Link: https://ronj2005.github.io/Aaron-Jones-Developer-Portfolio/
 
 - By clicking the links in the navigation bar, users will be able to access content associated to those links.
 
+# Screenshots
+
 ## Credits
  N/A
 
